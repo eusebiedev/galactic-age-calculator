@@ -2,7 +2,7 @@ import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
   let age;
-  let earlierAge;
+
   beforeEach(() => {
     age = new Calculator(60);
   });
@@ -37,8 +37,8 @@ describe('Calculator', () => {
     expect(age.yearsPassedMercury()).toEqual(42);
   })
 
-  // 7th Test
+
   test('should return how many years have passed on venus since past birthday', () => {
-    expect(age.yearsPassedMercury()).toEqual();
+    expect(age.yearsPassedVenus()).toEqual(1);
   })
 });
