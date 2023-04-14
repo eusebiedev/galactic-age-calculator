@@ -15,4 +15,10 @@ describe('Calculator', () => {
   test('should return a users age in mercury years', () => {
     expect(age.mercuryAge()).toEqual(250);
   })
+
+  // 3rd Test
+  test('should return a users age in venus years', () => {
+    expect(age.venusAge()).toEqual();
+    
+  })
 });
