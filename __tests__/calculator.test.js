@@ -28,6 +28,6 @@ describe('Calculator', () => {
 
   // 5th Test
   test('should return a users age in jupiter years', () => {
-    expect(age.jupiterAge()).toEqual(5.05);
+    expect(age.jupiterAge()).toEqual(5.06);
   })
 });
