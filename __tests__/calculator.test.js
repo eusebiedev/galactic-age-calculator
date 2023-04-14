@@ -7,7 +7,7 @@ describe('Calculator', () => {
   });
 
   // 1st Test
-  test('should create a calculator object with default age propery', () => {
+  test('should create a calculator object with default age property', () => {
     expect(age.solarAge).toEqual(60);
   });
 
@@ -18,7 +18,7 @@ describe('Calculator', () => {
 
   // 3rd Test
   test('should return a users age in venus years', () => {
-    expect(age.venusAge()).toEqual();
-    
+    expect(age.venusAge()).toEqual(96.77);
+
   })
 });
