@@ -3,20 +3,24 @@ export default class Calculator {
     this.solarAge = solarAge;
   }
 
-  mercuryAge(){
+  mercuryAge() {
     return Number (this.solarAge / .24);
   }
 
-  venusAge(){
+  venusAge() {
     return Number ((this.solarAge / .62).toFixed(2));
   }
 
-  marsAge(){
+  marsAge() {
     return Number ((this.solarAge / 1.88).toFixed(2));
   }
 
-  jupiterAge(){
+  jupiterAge() {
     return Number ((this.solarAge / 11.86).toFixed(2));
+  }
+
+  yearsPassedMercury() {
+    return Number (((this.solarAge - 50) / .24).toFixed());
   }
 
 }
