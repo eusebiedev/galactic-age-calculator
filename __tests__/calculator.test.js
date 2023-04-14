@@ -2,7 +2,7 @@ import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
   let age;
-
+  let earlierAge;
   beforeEach(() => {
     age = new Calculator(60);
   });
@@ -35,6 +35,6 @@ describe('Calculator', () => {
 
   //6th Test
   test('should return how many years have passed on mercury since past birthday', () => { 
-    expect(age.yearsPassedMercury(50)).toEqual(41);
+    expect(age.yearsPassedMercury()).toEqual(42);
   })
 });
