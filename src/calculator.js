@@ -6,4 +6,8 @@ export default class Calculator {
   mercuryAge(){
     return Number (this.solarAge / .24);
   }
+
+  venusAge(){
+    return Number ((this.solarAge / .62).toFixed(2));
+  }
 }
