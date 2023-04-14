@@ -13,6 +13,11 @@ export default class Calculator {
 
   marsAge(){
     return Number ((this.solarAge / 1.88).toFixed(2));
-
   }
+
+  jupiterAge(){
+    return Number ((this.solarAge / 11.86).toFixed(2));
+  }
+
 }
+
