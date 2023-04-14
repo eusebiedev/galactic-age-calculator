@@ -39,6 +39,6 @@ describe('Calculator', () => {
 
 
   test('should return how many years have passed on venus since past birthday', () => {
-    expect(age.yearsPassedVenus()).toEqual(1);
+    expect(age.yearsPassedVenus()).toEqual(16);
   })
 });
