@@ -23,5 +23,9 @@ export default class Calculator {
     return Number (((this.solarAge - 50) / .24).toFixed());
   }
 
+  yearsPassedVenus() {
+    return Number (((this.solarAge - 50) / .62).toFixed());
+  }
+
 }
 
