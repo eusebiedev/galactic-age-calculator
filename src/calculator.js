@@ -10,4 +10,9 @@ export default class Calculator {
   venusAge(){
     return Number ((this.solarAge / .62).toFixed(2));
   }
+
+  marsAge(){
+    return Number ((this.solarAge / 1.88).toFixed(2));
+
+  }
 }
