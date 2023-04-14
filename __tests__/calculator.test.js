@@ -1,20 +1,19 @@
 import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
-  let calculator;
+  let age;
   beforeEach(() => {
-    calculator = new Calculator(60);
+    age = new Calculator(60);
   });
 
   // 1st Test
   test('should create a calculator object with default age propery', () => {
-    expect(calculator.solarAge).toEqual(60);
+    expect(age.solarAge).toEqual(60);
   });
 
   // 2nd Test
   test('should return a users age in mercury years', () => {
-    mercuryAge();
-    expect(calculator.mercuryAge).toEqual(250);
+    expect(age.mercuryAge()).toEqual(250);
     
   })
 });
