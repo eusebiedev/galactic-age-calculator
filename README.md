@@ -13,6 +13,9 @@
 * _NPM v8.1.2_
 * _Webpack v4.46.0_
 * _ES Lint v8.18.0_
+* _Babel version "^7.18.6"_
+* _Webpack-cli version "^3.3.12"_
+* _Webpack-dev-server v3.11.3_
 
 ## Description
 
