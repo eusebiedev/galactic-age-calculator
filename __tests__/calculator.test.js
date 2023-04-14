@@ -2,9 +2,9 @@ import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
 
-  test('should return a persons age in mercury years', () => {
+  test('should create a calculator object', () => {
     const calculator = new Calculator();
-    // expect().toEqual();
+    expect().toEqual();
   });
 
 });
