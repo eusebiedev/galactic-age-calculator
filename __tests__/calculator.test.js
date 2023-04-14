@@ -31,8 +31,10 @@ describe('Calculator', () => {
     expect(age.jupiterAge()).toEqual(5.06);
   })
 
+
   //6th Test
   test('should return how many years have passed on mercury since past birthday', () => {
-    expect(age.mercuryPassed()).toEqual(10);
+    let age = earlierAge;
+    expect(age.yearsPassedMercury()).toEqual(10);
   })
 });
