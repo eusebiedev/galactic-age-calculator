@@ -27,5 +27,9 @@ export default class Calculator {
     return Number (((this.solarAge - 50) / .62).toFixed());
   }
 
+  yearsPassedMars() {
+    return Number (((this.solarAge - 50) / 1.88).toFixed());
+  }
+
 }
 
