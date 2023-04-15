@@ -26,38 +26,44 @@ describe('Calculator', () => {
 
   // 4th Test
   test('should return a users age in mars years', () => {
-    age.marsAge()
+    age.marsAge();
     expect(age.marsAge()).toEqual(31.91);
   });
 
   // 5th Test
   test('should return a users age in jupiter years', () => {
-    age.jupiterAge()
+    age.jupiterAge();
     expect(age.jupiterAge()).toEqual(5.06);
   });
 
   //6th Test
-  test('should return how many years have passed on mercury since past birthday', () => { 
-    age.yearsPassedMercury(50)
+  test('should return how many years have passed on mercury since past birthday of 50', () => { 
+    age.yearsPassedMercury(50);
     expect(age.yearsPassedMercury()).toEqual(42);
   });
 
   // 7th Test
-  test('should return how many years have passed on venus since past birthday', () => {
-    age.yearsPassedVenus(50)
+  test('should return how many years have passed on venus since past birthday of 50', () => {
+    age.yearsPassedVenus(50);
     expect(age.yearsPassedVenus()).toEqual(16);
   });
 
   // 8th Test
-  test('should return how many years have passed on mars since past birthday', () => {
-    age.yearsPassedMars(50)
+  test('should return how many years have passed on mars since past birthday of 50', () => {
+    age.yearsPassedMars(50);
     expect(age.yearsPassedMars()).toEqual(5);
   });
 
   // 9th Test
-  test('should return how many years have passed on jupiter since past birthday', () => {
-    age.yearsPassedJupiter(50)
+  test('should return how many years have passed on jupiter since past birthday of 50', () => {
+    age.yearsPassedJupiter(50);
     expect(age.yearsPassedJupiter()).toEqual(1);
   });
 
+  // 10th Test
+  test('should return how many years have passed on earth since last birthday', () => {
+    age.yearsPassedEarth(50);
+    expect(age.yearsPassedEarth()).toEqual(10);
+  })
+  
 });
