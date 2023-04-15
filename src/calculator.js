@@ -55,5 +55,8 @@ export default class Calculator {
     return Number (((70 - this.solarAge) / 1.88).toFixed(2));
   }
 
+  yearsUntilJupiter() {
+    return Number (((70 - this.solarAge) / 11.88).toFixed(2));
+  }
 }
 
