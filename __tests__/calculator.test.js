@@ -66,4 +66,10 @@ describe('Calculator', () => {
     expect(age.yearsPassedEarth()).toEqual(10);
   })
 
+  // 11th test
+  test('should returj how many years until next birthday on earth', () => {
+
+    expect(age.yearsUntilEarth()).toEqual(10);
+  });
+
 });
