@@ -49,7 +49,7 @@ describe('Calculator', () => {
 
   // 9th Test
   test('should return how many years have passed on jupiter since past birthday', () => {
-    expect(age.yearsPassedJupiter()).toEqual();
+    expect(age.yearsPassedJupiter()).toEqual(4);
   });
-  
+
 });
