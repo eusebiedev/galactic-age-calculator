@@ -67,33 +67,33 @@ describe('Calculator', () => {
   })
 
   // 11th Test
-  test('should return how many years until next birthday on earth', () => {
+  test('should return how many years until future birthday on earth', () => {
     age.yearsUntilEarth(70);
     expect(age.yearsUntilEarth()).toEqual(10);
   });
 
   // 12th Test
-  test('should return how many years until next birthday on mercury', () => {
+  test('should return how many years have passed until future birthday on mercury', () => {
     age.yearsUntilMercury(70);
     expect(age.yearsUntilMercury()).toEqual(41.67);
   });
 
   // 13th Test
-  test('should return how many years until next birthday on venus', () => {
+  test('should return how many years have passed until future birthday on venus', () => {
     age.yearsUntilVenus(70);
     expect(age.yearsUntilVenus()).toEqual(16.13);
   })
 
   // 14th Test
-  test('should return how many years until next birthday on mars', () => {
-    age.yearsPassedMars(70);
+  test('should return how many years have passed until future birthday on mars', () => {
+    age.yearsUntilMars(70);
     expect(age.yearsUntilMars()).toEqual(5.32);
   })
 
   // 15th Test
-  test('should return how many years until next birthday on jupiter', () => {
-
-    expect(age.yearsUntilJupiter()).toEqual();
+  test('should return how many years have passed until future birthday on jupiter', () => {
+    age.yearsUntilJupiter();
+    expect(age.yearsUntilJupiter()).toEqual(.84);
   }) 
 
 });
