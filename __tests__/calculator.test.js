@@ -1,3 +1,4 @@
+import { experiments } from 'webpack';
 import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
@@ -66,10 +67,16 @@ describe('Calculator', () => {
     expect(age.yearsPassedEarth()).toEqual(10);
   })
 
-  // 11th test
+  // 11th Test
   test('should return how many years until next birthday on earth', () => {
     age.yearsUntilEarth(70);
     expect(age.yearsUntilEarth()).toEqual(10);
+  });
+
+  // 12 Test
+  test('should return how many years until next birthday on mercury', () => {
+    
+    expect(age.yearsUntilMercury()).toEqual();
   });
 
 });
