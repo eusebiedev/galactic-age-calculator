@@ -35,12 +35,20 @@ export default class Calculator {
     return Number (((this.solarAge - 50) / 11.86).toFixed());
   }
 
-  yearsPassedEarth () {
+  yearsPassedEarth() {
     return Number (this.solarAge - 50);
   }
 
-  yearsUntilEarth () {
+  yearsUntilEarth() {
     return Number (70 - this.solarAge);
+  }
+
+  yearsUntilMercury() {
+    return Number (((70 - this.solarAge) / .24).toFixed(2));
+  }
+
+  yearsUntilVenus() {
+    return Number (((70 - this.solarAge) / .62).toFixed(2));
   }
 
 }
