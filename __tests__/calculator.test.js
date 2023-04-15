@@ -61,39 +61,38 @@ describe('Calculator', () => {
   });
 
   // 10th Test
-  test('should return how many earth years have passed on earth since last birthday', () => {
+  test('should return how many years have passed on earth since last birthday of 50', () => {
     age.yearsPassedEarth(50);
     expect(age.yearsPassedEarth()).toEqual(10);
   })
 
   // 11th Test
-  test('should return how many years until future birthday on earth', () => {
+  test('should return how many years until future 70th birthday on earth', () => {
     age.yearsUntilEarth(70);
     expect(age.yearsUntilEarth()).toEqual(10);
   });
 
   // 12th Test
-  test('should return how many years have passed until future birthday on mercury', () => {
+  test('should return how many years have yet to pass until future 70th birthday on mercury', () => {
     age.yearsUntilMercury(70);
     expect(age.yearsUntilMercury()).toEqual(41.67);
   });
 
   // 13th Test
-  test('should return how many years have passed until future birthday on venus', () => {
+  test('should return how many years have yet to pass until future 70th birthday on venus', () => {
     age.yearsUntilVenus(70);
     expect(age.yearsUntilVenus()).toEqual(16.13);
-  })
+  });
 
   // 14th Test
-  test('should return how many years have passed until future birthday on mars', () => {
+  test('should return how many years have yet to pass until future 70th birthday on mars', () => {
     age.yearsUntilMars(70);
     expect(age.yearsUntilMars()).toEqual(5.32);
-  })
+  });
 
   // 15th Test
-  test('should return how many years have passed until future birthday on jupiter', () => {
+  test('should return how many years have yet to pass until future 70th birthday on jupiter', () => {
     age.yearsUntilJupiter();
     expect(age.yearsUntilJupiter()).toEqual(.84);
-  }) 
-
+  });
 });
