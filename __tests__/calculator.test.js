@@ -92,7 +92,7 @@ describe('Calculator', () => {
 
   // 15th Test
   test('should return how many years have yet to pass until future 70th birthday on jupiter', () => {
-    age.yearsUntilJupiter();
+    age.yearsUntilJupiter(70);
     expect(age.yearsUntilJupiter()).toEqual(.84);
   });
 });
