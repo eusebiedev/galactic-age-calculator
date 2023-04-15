@@ -44,6 +44,6 @@ describe('Calculator', () => {
 
   // 8th Test
   test('should return how many years have passed on mars since past birthday', () => {
-    expect(age.yearsPassedVenus()).toEqual();
+    expect(age.yearsPassedMars()).toEqual(26);
   });
 });
