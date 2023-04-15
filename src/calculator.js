@@ -39,5 +39,9 @@ export default class Calculator {
     return Number (this.solarAge - 50);
   }
 
+  yearsUntilEarth () {
+    return Number (70 - this.solarAge);
+  }
+
 }
 
