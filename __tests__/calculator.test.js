@@ -1,4 +1,3 @@
-import { experiments } from 'webpack';
 import Calculator from './../src/calculator.js';
 
 describe('Calculator', () => {
@@ -73,22 +72,28 @@ describe('Calculator', () => {
     expect(age.yearsUntilEarth()).toEqual(10);
   });
 
-  // 12 Test
+  // 12th Test
   test('should return how many years until next birthday on mercury', () => {
     age.yearsUntilMercury(70);
     expect(age.yearsUntilMercury()).toEqual(41.67);
   });
 
-  //13 Test
+  // 13th Test
   test('should return how many years until next birthday on venus', () => {
     age.yearsUntilVenus(70);
     expect(age.yearsUntilVenus()).toEqual(16.13);
   })
 
-  //14 Test
+  // 14th Test
   test('should return how many years until next birthday on mars', () => {
     age.yearsPassedMars(70);
     expect(age.yearsUntilMars()).toEqual(5.32);
   })
+
+  // 15th Test
+  test('should return how many years until next birthday on jupiter', () => {
+
+    expect(age.yearsUntilJupiter()).toEqual();
+  }) 
 
 });
