@@ -36,10 +36,7 @@ _This application calculates a users age based on a planet's solar year, includi
 
 ## Known Bugs
 
-* _As of 03/24/2023:_
-* _Does not currently calculate years passed on planets since last birthday_
-* _Does not currently calculate years yet to pass on planets until a future birthday_
-
+* _No known bugs of 04/15/2023_
 
 ## [MIT](https://opensource.org/license/mit/)
 
