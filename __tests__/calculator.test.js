@@ -62,8 +62,8 @@ describe('Calculator', () => {
 
   // 10th Test
   test('should return how many years have passed on earth since last birthday', () => {
-    age.yearsPassedEarth(50);
+    age.yearsPassedEarth();
     expect(age.yearsPassedEarth()).toEqual(10);
   })
-  
+
 });
