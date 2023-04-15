@@ -88,7 +88,7 @@ describe('Calculator', () => {
   //14 Test
   test('should return how many years until next birthday on mars', () => {
     
-    expect(age.yearsUntilMars()).toEqual();
+    expect(age.yearsUntilMars()).toEqual(5.32);
   })
 
 });
