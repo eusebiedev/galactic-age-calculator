@@ -79,4 +79,10 @@ describe('Calculator', () => {
     expect(age.yearsUntilMercury()).toEqual(41.67);
   });
 
+  //13 Test
+  test('should return how many years until next birthday on venus', () => {
+    
+    expect(age.yearsUntilVenus()).toEqual();
+  })
+
 });
