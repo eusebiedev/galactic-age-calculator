@@ -35,5 +35,9 @@ export default class Calculator {
     return Number (((this.solarAge - 50) / 11.86).toFixed());
   }
 
+  yearsPassedEarth () {
+    return Number (this.solarAge - 50);
+  }
+
 }
 
