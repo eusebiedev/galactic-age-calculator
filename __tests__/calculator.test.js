@@ -32,52 +32,52 @@ describe('Calculator', () => {
   });
 
   test('should return how many years have passed on mercury since past birthday of 50', () => { 
-    age.yearsPassedMercury(50);
+    age.yearsPassedMercury();
     expect(age.yearsPassedMercury()).toEqual(42);
   });
 
   test('should return how many years have passed on venus since past birthday of 50', () => {
-    age.yearsPassedVenus(50);
+    age.yearsPassedVenus();
     expect(age.yearsPassedVenus()).toEqual(16);
   });
 
   test('should return how many years have passed on mars since past birthday of 50', () => {
-    age.yearsPassedMars(50);
+    age.yearsPassedMars();
     expect(age.yearsPassedMars()).toEqual(5);
   });
 
   test('should return how many years have passed on jupiter since past birthday of 50', () => {
-    age.yearsPassedJupiter(50);
+    age.yearsPassedJupiter();
     expect(age.yearsPassedJupiter()).toEqual(1);
   });
 
   test('should return how many years have passed on earth since last birthday of 50', () => {
-    age.yearsPassedEarth(50);
+    age.yearsPassedEarth();
     expect(age.yearsPassedEarth()).toEqual(10);
   })
 
   test('should return how many years until future 70th birthday on earth', () => {
-    age.yearsUntilEarth(70);
+    age.yearsUntilEarth();
     expect(age.yearsUntilEarth()).toEqual(10);
   });
 
   test('should return how many years have yet to pass until future 70th birthday on mercury', () => {
-    age.yearsUntilMercury(70);
+    age.yearsUntilMercury();
     expect(age.yearsUntilMercury()).toEqual(41.67);
   });
 
   test('should return how many years have yet to pass until future 70th birthday on venus', () => {
-    age.yearsUntilVenus(70);
+    age.yearsUntilVenus();
     expect(age.yearsUntilVenus()).toEqual(16.13);
   });
 
   test('should return how many years have yet to pass until future 70th birthday on mars', () => {
-    age.yearsUntilMars(70);
+    age.yearsUntilMars();
     expect(age.yearsUntilMars()).toEqual(5.32);
   });
 
   test('should return how many years have yet to pass until future 70th birthday on jupiter', () => {
-    age.yearsUntilJupiter(70);
+    age.yearsUntilJupiter();
     expect(age.yearsUntilJupiter()).toEqual(.84);
   });
 });
