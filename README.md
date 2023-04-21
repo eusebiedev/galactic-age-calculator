@@ -36,7 +36,7 @@ _This application calculates a users age based on a planet's solar year, includi
 
 ## Known Bugs
 
-* _No known bugs of 04/15/2023_
+* _No known bugs of 04/21/2023_
 
 ## [MIT](https://opensource.org/license/mit/)
 
